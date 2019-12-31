@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Click"
+        android:background="@drawable/state_drawble"
+        android:textColor="@android:color/background_light"
+
+        />
+
+    <ImageView
+        android:id="@+id/im_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/animation_drawble"
+        />
+
+    <Button
+        android:id="@+id/btn_alpha"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="alpha"
+        android:background="@drawable/state_drawble"
+        android:textColor="@android:color/background_light"
+        />
+
+
+    <Button
+        android:id="@+id/btn_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="rotate"
+        android:background="@drawable/state_drawble"
+        android:textColor="@android:color/background_light"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_scale"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="scale"
+        android:background="@drawable/state_drawble"
+        android:textColor="@android:color/background_light"
+        />
+
+    <Button
+        android:id="@+id/btn_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Translate"
+        android:background="@drawable/state_drawble"
+        android:textColor="@android:color/background_light"
+        />
+
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="set"
+        android:background="@drawable/state_drawble"
+        android:textColor="@android:color/background_light"
+        />
+
+</LinearLayout>
